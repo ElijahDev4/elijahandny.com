@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "build-css": "tailwindcss build src/assets/styles/app.css -o public/styles.css",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
@@ -10,6 +11,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "cross-env": "^7.0.2",
+    "tailwindcss": "^1.7.5",
     "vue": "^2.6.11"
   },
   "devDependencies": {

@@ -1,28 +1,36 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <!-- Component Must be written here otherwise error ex: ( <Home msg="Welcome to Your Vue-Flask-Tailwind App" /> ) -->
+    <MainHeader />
+    <MainBodySkills />
+    <MainBody />
+    <MainBodyCards />
+    <MainFooter />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import MainHeader from "./components/MainHeader.vue";
+import MainBodySkills from "./components/MainBodySkills.vue";
+import MainBody from "./components/MainBody.vue";
+import MainBodyCards from "./components/MainBodyCards.vue";
+import MainFooter from "./components/MainFooter.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld
+    MainHeader,
+    MainBodySkills,
+    MainBody,
+    MainBodyCards,
+    MainFooter
   }
 };
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
 }
 </style>
