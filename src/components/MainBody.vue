@@ -1,36 +1,32 @@
 <template>
   <div>
     <div class="py-0 px-4 justify-center flex">
-      <div class="bg-white shadow-md rounded-lg lg:flex">
-        <div class="lg:w-1/2">
+      <div class="bg-white rounded-lg shadow-sm lg:flex">
+        <div class="lg:w-2/5">
           <div
             id="pic"
-            class="bg-cover rounded-lg shadow-md"
+            class="bg-cover rounded-lg shadow-sm"
             :style="{
               'background-image': `url(${require('@/assets/my2.jpg')})`
             }"
           ></div>
         </div>
-        <div class="py-8 px-3 max-w-xl lg:max-w-5xl lg:py-0 lg:w-2/3">
+        <div
+          id="text"
+          class="py-8 px-5 max-w-xl lg:max-w-5xl lg:py-24 lg:w-2/3"
+        >
           <h2 class="py-2">
             <span class="text-green-700 text-4xl text-bold"
               >My name is Elijah.</span
             >
           </h2>
-          <p class="text-gray-900 py-12 whitespace-pre-wrap">
-            I would describe myself as a passionate autodidactic learner and
-            someone that looks at learning new things as an interesting
-            challenge as opposed to worrying about the difficulties, which helps
-            with keeping up with the rapid pace of technological change. My
-            software engineering learning process utilizes first principles
-            learning, as I believe that is the best way to approach
-            problem-solving.<br /><br />
-            I don't get caught up in language preferences, instead I'd use what
-            is most needed to complete a project. I believe that once the
-            fundamentals are learned it makes learning different programming
-            languages and frameworks easier because they all share similarities.
-            I'm still very early in my CS progress and perseverence is part of
-            my fundamentals.
+          <p class="text-gray-900 lg:py-5 sm:py-0 whitespace-pre-wrap text-lg">
+            I'm a full-stack software developer looking to join a team of
+            developers and build my skills while working on interesting
+            applications and features. I improve exponentially by focusing on
+            clean code, computer science and software engineering first
+            principles. I'm available to learn any tech stack and methodology to
+            help build and maintain your product or service.
           </p>
         </div>
       </div>
@@ -55,9 +51,9 @@ export default {
     height: 28rem;
   }
 }
-@media (max-width: 640px) {
+@media (min-width: 500px) {
   #pic {
-    height: 20rem;
+    height: 30rem;
   }
 }
 </style>

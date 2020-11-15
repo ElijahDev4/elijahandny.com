@@ -3,7 +3,7 @@
     <div class="container px-3 py-20">
       <div class="py-10 text-center">
         <h1 class="text-3xl font-medium mb-2 mt-2 text-green-700">
-          Learning Path
+          Areas of Interest
         </h1>
       </div>
       <div class="flex flex-wrap">
@@ -13,28 +13,28 @@
           <div
             class="h-56 w-full rounded-lg shadow-md bg-cover bg-center"
             :style="{
-              'background-image': `url(${require('@/assets/blockchain.jpeg')})`
+              'background-image': `url(${require('@/assets/shopify.jpg')})`
             }"
           ></div>
 
           <div class="width bg-white -mt-10 shadow-md rounded-lg p-5">
             <div class="inline-flex ">
               <div class="h-4 w-4 m-1">
-                <div class="h-2 w-2 rounded-full m-1 bg-blue-300"></div>
+                <div class="h-2 w-2 rounded-full m-1 bg-green-400"></div>
               </div>
-              <div class="text-lg font-bold">Go/C++</div>
+              <div class="text-md font-bold">Shopify</div>
             </div>
-            <div class="font-bold text-sm">DApp Development</div>
+            <div class="font-bold text-sm">App Development</div>
 
             <div>
               <ul class="list-disc text-sm">
-                <li>Cryptography</li>
-                <li>"Cryptonomics"</li>
-                <li>Distributed Systems &amp; Ledgers</li>
-                <li>Game Theory</li>
-                <li>Blockchain Security</li>
-                <li>Smart Contracts</li>
-                <li>Consensus Algorithms</li>
+                <li>Flask</li>
+                <li>Laravel</li>
+                <li>React.js</li>
+                <li>PostgreSQL</li>
+                <li>REST Microservice Development</li>
+                <li>Containerization w/ Docker</li>
+                <li>AWS Cloud Deployment</li>
               </ul>
             </div>
           </div>
@@ -55,19 +55,19 @@
               <div class="h-4 w-4 m-1">
                 <div class="h-2 w-2 rounded-full m-1 bg-yellow-500"></div>
               </div>
-              <div class="text-lg font-bold">Python</div>
+              <div class="text-lg font-bold">Data Science</div>
             </div>
             <div class="font-bold text-sm">
-              ML Engineering
+              Artificial Neural Networks
             </div>
 
             <div>
               <ul class="list-disc text-sm">
+                <li>Pandas/NumPy</li>
                 <li>Problem Framing</li>
-                <li>ML Solution Architecture</li>
+                <li>Solution Architecture</li>
                 <li>Data Preparation &amp; Processing</li>
                 <li>Model Development</li>
-                <li>Hypergraphs</li>
                 <li>Pipeline Automation</li>
                 <li>Solution Optimization</li>
               </ul>

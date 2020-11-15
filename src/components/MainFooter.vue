@@ -18,11 +18,6 @@
                   ><i class="fa fa-linkedin"></i
                 ></a>
               </li>
-              <li class="list-inline-item">
-                <a href="https://www.instagram.com/"
-                  ><i class="fa fa-instagram"></i
-                ></a>
-              </li>
             </ul>
           </div>
           <hr />
@@ -31,15 +26,7 @@
           <div
             class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white"
           >
-            <p class="h6">Email: Elijahdev4@gmail.com <br /></p>
-
-            <h6 class="py-1">
-              Visit my
-              <a href="https://github.com/ElijahDev4?tab=repositories"
-                >Github</a
-              >
-              repositories to view my available projects.
-            </h6>
+            <p class="h6">Elijahdev4@gmail.com <br /></p>
           </div>
           <hr />
         </div>

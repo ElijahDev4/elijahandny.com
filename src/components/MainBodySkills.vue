@@ -17,17 +17,30 @@
             </div>
             <div>
               <h2 class="text-gray-900 text-xl font-medium mb-3">
-                Skills
+                Development Experience
               </h2>
               <div class="leading-relaxed">
                 <ul class="list-disc text-md">
-                  <li>Computer Science Fundamentals</li>
-                  <li>Python (Flask, Pipenv, Pylint)</li>
-                  <li>PHP (Laravel, Wordpress, Drupal)</li>
-                  <li>JavaScript (Vue.js, NPM, ESLint)</li>
-                  <li>HTML &amp; CSS (Tailwind CSS, Bootstrap 4)</li>
-                  <li>SQL (MySQL, PostgreSQL, SQL Alchemy)</li>
-                  <li>Git</li>
+                  <li>Python</li>
+                  <li>PHP (Laravel)</li>
+                  <li>JavaScript (Vue.js, React.js)</li>
+                  <li>HTML &amp; CSS (Tailwind CSS, Bootstrap)</li>
+                  <li>SQL/NOSQL</li>
+                  <li>HTTPS</li>
+                  <h1 class="font-bold text-sm text-green-700">
+                    Regular Expressions and Password Hashing w/ PHP :
+                  </h1>
+                  <a
+                    class="text-green-700"
+                    href="http://phploginsystem.online/app/"
+                    >Login system</a
+                  >
+                  <br />
+                  <a
+                    class="text-green-700"
+                    href="http://crudproject.online/app/"
+                    >CRUD app</a
+                  >
                 </ul>
               </div>
             </div>
@@ -48,19 +61,17 @@
             </div>
             <div class="flex-grow">
               <h2 class="text-gray-900 text-xl font-medium mb-3">
-                Experience &amp; Traits
+                Soft Skills
               </h2>
               <div class="leading-relaxed">
                 <ul class="list-disc text-md">
-                  <li>
-                    7+ years of experience working on teams of diverse
-                    indiviuals
-                  </li>
-                  <li>1 year of software engineering experience</li>
+                  <li>Able to work well on teams and independently</li>
+                  <li>Adaptability</li>
                   <li>Excellent written &amp; verbal communication</li>
-                  <li>Emotional Intelligence</li>
-                  <li>Critical Thinker</li>
-                  <li>Persistent Learner</li>
+                  <li>EQ</li>
+                  <li>Critical thinker</li>
+                  <li>Quick learner</li>
+                  <li>Self-starter</li>
                 </ul>
               </div>
             </div>
